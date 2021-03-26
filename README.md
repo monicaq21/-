@@ -1,1 +1,1 @@
-# -IOS Application designed for IPhone XR. Drink water reminder tool.
+# -iOS Application designed for iPhone XR. Drink water reminder tool.
