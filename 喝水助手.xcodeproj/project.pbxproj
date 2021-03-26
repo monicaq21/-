@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D76EB4B260D2DCB00CC68DC /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76EB4A260D2DCB00CC68DC /* Notification.swift */; };
+		8D76EB50260D2DE600CC68DC /* SetAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76EB4F260D2DE600CC68DC /* SetAlarm.swift */; };
+		8D76EB6B260D304300CC68DC /* AnimalCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76EB6A260D304300CC68DC /* AnimalCollections.swift */; };
+		8D76EB73260D369F00CC68DC /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76EB72260D369F00CC68DC /* Alarm.swift */; };
+		8D76EB78260D3E5000CC68DC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D76EB77260D3E5000CC68DC /* Colors.swift */; };
+		8DBC2B89260C364F0010808D /* ____App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC2B88260C364F0010808D /* ____App.swift */; };
+		8DBC2B8B260C364F0010808D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC2B8A260C364F0010808D /* ContentView.swift */; };
+		8DBC2B8D260C36510010808D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBC2B8C260C36510010808D /* Assets.xcassets */; };
+		8DBC2B90260C36510010808D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBC2B8F260C36510010808D /* Preview Assets.xcassets */; };
+		8DBC2B9B260C36520010808D /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC2B9A260C36520010808D /* ____Tests.swift */; };
+		8DBC2BA6260C36520010808D /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC2BA5260C36520010808D /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DBC2B97260C36520010808D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DBC2B7D260C364F0010808D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DBC2B84260C364F0010808D;
+			remoteInfo = "喝水助手";
+		};
+		8DBC2BA2260C36520010808D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DBC2B7D260C364F0010808D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DBC2B84260C364F0010808D;
+			remoteInfo = "喝水助手";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D76EB4A260D2DCB00CC68DC /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		8D76EB4F260D2DE600CC68DC /* SetAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAlarm.swift; sourceTree = "<group>"; };
+		8D76EB6A260D304300CC68DC /* AnimalCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCollections.swift; sourceTree = "<group>"; };
+		8D76EB72260D369F00CC68DC /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		8D76EB77260D3E5000CC68DC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8DBC2B85260C364F0010808D /* 喝水助手.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "喝水助手.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBC2B88260C364F0010808D /* ____App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____App.swift"; sourceTree = "<group>"; };
+		8DBC2B8A260C364F0010808D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DBC2B8C260C36510010808D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DBC2B8F260C36510010808D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DBC2B91260C36510010808D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBC2B96260C36520010808D /* 喝水助手Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "喝水助手Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBC2B9A260C36520010808D /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		8DBC2B9C260C36520010808D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBC2BA1260C36520010808D /* 喝水助手UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "喝水助手UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBC2BA5260C36520010808D /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		8DBC2BA7260C36520010808D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DBC2B82260C364F0010808D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBC2B93260C36520010808D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBC2B9E260C36520010808D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DBC2B7C260C364F0010808D = {
+			isa = PBXGroup;
+			children = (
+				8DBC2B87260C364F0010808D /* 喝水助手 */,
+				8DBC2B99260C36520010808D /* 喝水助手Tests */,
+				8DBC2BA4260C36520010808D /* 喝水助手UITests */,
+				8DBC2B86260C364F0010808D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DBC2B86260C364F0010808D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DBC2B85260C364F0010808D /* 喝水助手.app */,
+				8DBC2B96260C36520010808D /* 喝水助手Tests.xctest */,
+				8DBC2BA1260C36520010808D /* 喝水助手UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DBC2B87260C364F0010808D /* 喝水助手 */ = {
+			isa = PBXGroup;
+			children = (
+				8DBC2B88260C364F0010808D /* ____App.swift */,
+				8DBC2B8A260C364F0010808D /* ContentView.swift */,
+				8D76EB4A260D2DCB00CC68DC /* Notification.swift */,
+				8D76EB72260D369F00CC68DC /* Alarm.swift */,
+				8D76EB4F260D2DE600CC68DC /* SetAlarm.swift */,
+				8D76EB6A260D304300CC68DC /* AnimalCollections.swift */,
+				8D76EB77260D3E5000CC68DC /* Colors.swift */,
+				8DBC2B8C260C36510010808D /* Assets.xcassets */,
+				8DBC2B91260C36510010808D /* Info.plist */,
+				8DBC2B8E260C36510010808D /* Preview Content */,
+			);
+			path = "喝水助手";
+			sourceTree = "<group>";
+		};
+		8DBC2B8E260C36510010808D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DBC2B8F260C36510010808D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DBC2B99260C36520010808D /* 喝水助手Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8DBC2B9A260C36520010808D /* ____Tests.swift */,
+				8DBC2B9C260C36520010808D /* Info.plist */,
+			);
+			path = "喝水助手Tests";
+			sourceTree = "<group>";
+		};
+		8DBC2BA4260C36520010808D /* 喝水助手UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DBC2BA5260C36520010808D /* ____UITests.swift */,
+				8DBC2BA7260C36520010808D /* Info.plist */,
+			);
+			path = "喝水助手UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DBC2B84260C364F0010808D /* 喝水助手 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBC2BAA260C36520010808D /* Build configuration list for PBXNativeTarget "喝水助手" */;
+			buildPhases = (
+				8DBC2B81260C364F0010808D /* Sources */,
+				8DBC2B82260C364F0010808D /* Frameworks */,
+				8DBC2B83260C364F0010808D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "喝水助手";
+			productName = "喝水助手";
+			productReference = 8DBC2B85260C364F0010808D /* 喝水助手.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DBC2B95260C36520010808D /* 喝水助手Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBC2BAD260C36520010808D /* Build configuration list for PBXNativeTarget "喝水助手Tests" */;
+			buildPhases = (
+				8DBC2B92260C36520010808D /* Sources */,
+				8DBC2B93260C36520010808D /* Frameworks */,
+				8DBC2B94260C36520010808D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DBC2B98260C36520010808D /* PBXTargetDependency */,
+			);
+			name = "喝水助手Tests";
+			productName = "喝水助手Tests";
+			productReference = 8DBC2B96260C36520010808D /* 喝水助手Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DBC2BA0260C36520010808D /* 喝水助手UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBC2BB0260C36520010808D /* Build configuration list for PBXNativeTarget "喝水助手UITests" */;
+			buildPhases = (
+				8DBC2B9D260C36520010808D /* Sources */,
+				8DBC2B9E260C36520010808D /* Frameworks */,
+				8DBC2B9F260C36520010808D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DBC2BA3260C36520010808D /* PBXTargetDependency */,
+			);
+			name = "喝水助手UITests";
+			productName = "喝水助手UITests";
+			productReference = 8DBC2BA1260C36520010808D /* 喝水助手UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DBC2B7D260C364F0010808D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					8DBC2B84260C364F0010808D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					8DBC2B95260C36520010808D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8DBC2B84260C364F0010808D;
+					};
+					8DBC2BA0260C36520010808D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8DBC2B84260C364F0010808D;
+					};
+				};
+			};
+			buildConfigurationList = 8DBC2B80260C364F0010808D /* Build configuration list for PBXProject "喝水助手" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DBC2B7C260C364F0010808D;
+			productRefGroup = 8DBC2B86260C364F0010808D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DBC2B84260C364F0010808D /* 喝水助手 */,
+				8DBC2B95260C36520010808D /* 喝水助手Tests */,
+				8DBC2BA0260C36520010808D /* 喝水助手UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DBC2B83260C364F0010808D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBC2B90260C36510010808D /* Preview Assets.xcassets in Resources */,
+				8DBC2B8D260C36510010808D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBC2B94260C36520010808D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBC2B9F260C36520010808D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DBC2B81260C364F0010808D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBC2B8B260C364F0010808D /* ContentView.swift in Sources */,
+				8DBC2B89260C364F0010808D /* ____App.swift in Sources */,
+				8D76EB50260D2DE600CC68DC /* SetAlarm.swift in Sources */,
+				8D76EB78260D3E5000CC68DC /* Colors.swift in Sources */,
+				8D76EB6B260D304300CC68DC /* AnimalCollections.swift in Sources */,
+				8D76EB4B260D2DCB00CC68DC /* Notification.swift in Sources */,
+				8D76EB73260D369F00CC68DC /* Alarm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBC2B92260C36520010808D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBC2B9B260C36520010808D /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBC2B9D260C36520010808D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBC2BA6260C36520010808D /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DBC2B98260C36520010808D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DBC2B84260C364F0010808D /* 喝水助手 */;
+			targetProxy = 8DBC2B97260C36520010808D /* PBXContainerItemProxy */;
+		};
+		8DBC2BA3260C36520010808D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DBC2B84260C364F0010808D /* 喝水助手 */;
+			targetProxy = 8DBC2BA2260C36520010808D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8DBC2BA8260C36520010808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DBC2BA9260C36520010808D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DBC2BAB260C36520010808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"喝水助手/Preview Content\"";
+				DEVELOPMENT_TEAM = LTG4D24862;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "喝水助手/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monicaqiu.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DBC2BAC260C36520010808D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"喝水助手/Preview Content\"";
+				DEVELOPMENT_TEAM = LTG4D24862;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "喝水助手/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monicaqiu.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DBC2BAE260C36520010808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTG4D24862;
+				INFOPLIST_FILE = "喝水助手Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monicaqiu.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/喝水助手.app/喝水助手";
+			};
+			name = Debug;
+		};
+		8DBC2BAF260C36520010808D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTG4D24862;
+				INFOPLIST_FILE = "喝水助手Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monicaqiu.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/喝水助手.app/喝水助手";
+			};
+			name = Release;
+		};
+		8DBC2BB1260C36520010808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTG4D24862;
+				INFOPLIST_FILE = "喝水助手UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monicaqiu.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "喝水助手";
+			};
+			name = Debug;
+		};
+		8DBC2BB2260C36520010808D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTG4D24862;
+				INFOPLIST_FILE = "喝水助手UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monicaqiu.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "喝水助手";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DBC2B80260C364F0010808D /* Build configuration list for PBXProject "喝水助手" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBC2BA8260C36520010808D /* Debug */,
+				8DBC2BA9260C36520010808D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBC2BAA260C36520010808D /* Build configuration list for PBXNativeTarget "喝水助手" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBC2BAB260C36520010808D /* Debug */,
+				8DBC2BAC260C36520010808D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBC2BAD260C36520010808D /* Build configuration list for PBXNativeTarget "喝水助手Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBC2BAE260C36520010808D /* Debug */,
+				8DBC2BAF260C36520010808D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBC2BB0260C36520010808D /* Build configuration list for PBXNativeTarget "喝水助手UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBC2BB1260C36520010808D /* Debug */,
+				8DBC2BB2260C36520010808D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DBC2B7D260C364F0010808D /* Project object */;
+}
